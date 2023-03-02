@@ -37,7 +37,7 @@ public class ApiKenyaRestController {
         scheme.setStartDate("2023/01/2");
         scheme.setEndDate("2023/01/12");
         scheme.setPolTypeId("2345235");
-        scheme.setUserId("123434");
+        scheme.setUserId(Long.valueOf("123434"));
         scheme.setCountryCode("+254");
         scheme.setPolicyCurrencyId("KE");
         scheme.setAnniv("3");
